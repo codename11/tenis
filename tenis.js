@@ -1,4 +1,4 @@
-
+//ovo je komentar
 
 	document.addEventListener("keydown", function(e) {handleKeyDown(e)}, false);
 	document.addEventListener("keydown", function(e) {handleKeyDown1(e)}, false);
