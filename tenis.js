@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+
 
 
 	window.addEventListener("keydown", function(e) {handleKeyDown(e)}, false);
 	window.addEventListener("keydown", function(e) {handleKeyDown1(e)}, false);
-=======
+
 //ovo je komentar
 
 	document.addEventListener("keydown", function(e) {handleKeyDown(e)}, false);
 	document.addEventListener("keydown", function(e) {handleKeyDown1(e)}, false);
->>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
+
 
 var kuglicatop=270;   // Y koordinata kuglice.
 var kuglicaleft=15;  // X koordinata kuglice.
