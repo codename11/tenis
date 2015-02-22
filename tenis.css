@@ -5,9 +5,12 @@ background-attachment:fixed;
 background-repeat:no-repeat;
 color:red;
 overflow:hidden;
+<<<<<<< HEAD
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
+=======
+>>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
 }
 #okvir1{
 top:100%;
@@ -44,8 +47,11 @@ top:270px;
 .animacija{
 
 -webkit-animation: mymove 1s infinite;
+<<<<<<< HEAD
 -o-animation: mymove 1s infinite;
 -moz-animation: mymove 1s infinite;
+=======
+>>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
 animation: mymove 1s infinite;
 
 }
@@ -59,6 +65,7 @@ animation: mymove 1s infinite;
 @keyframes mymove {
     50% {box-shadow: 0px 0px 50px 10px white;}
 }
+<<<<<<< HEAD
 /*Opera*/
 @-o-keyframes mymove {
     50% {box-shadow: 0px 0px 50px 10px white;}
@@ -67,13 +74,18 @@ animation: mymove 1s infinite;
 @-moz-keyframes mymove {
     50% {box-shadow: 0px 0px 50px 10px white;}
 }
+=======
+>>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
 
 #kuglica{
 width:16px;
 height:16px;
 border-radius: 50%;
+<<<<<<< HEAD
 -moz-border-radius: 50%;
 -webkit-border-radius: 50%;
+=======
+>>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
 position:absolute;
 background:white;
 top:270px;

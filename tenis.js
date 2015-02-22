@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 
 
 	window.addEventListener("keydown", function(e) {handleKeyDown(e)}, false);
 	window.addEventListener("keydown", function(e) {handleKeyDown1(e)}, false);
+=======
+//ovo je komentar
+
+	document.addEventListener("keydown", function(e) {handleKeyDown(e)}, false);
+	document.addEventListener("keydown", function(e) {handleKeyDown1(e)}, false);
+>>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
 
 var kuglicatop=270;   // Y koordinata kuglice.
 var kuglicaleft=15;  // X koordinata kuglice.
@@ -163,8 +170,13 @@ setTimeout(function(){kuglicamove()},10); // Vremenski(u milisekundama) izražen
 
 function handleKeyDown(event)
     {
+<<<<<<< HEAD
         if (event.keyCode == 83) funk1(20); 
       if (event.keyCode == 87) {funk1(-20);} 
+=======
+        if (event.keyCode == 83) funk1(20); //40
+      if (event.keyCode == 87) {funk1(-20);} //38
+>>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
     }
 	
 function handleKeyDown1(event1)
@@ -174,15 +186,25 @@ function handleKeyDown1(event1)
     }
 
 
+<<<<<<< HEAD
 function follow(evtx) {
+=======
+/*function follow(evtx) {
+>>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
 	if (evtx.pageY<=600-60) 
 		reket2Top=evtx.pageY;document.getElementById('reket2').style.top=reket2Top+"px";
 	
 	}
 
+<<<<<<< HEAD
 	document.onmousemove = follow;
 
 	/*tralalala*/
+=======
+	document.onmousemove = follow;*/
+
+	
+>>>>>>> a4bcdbb565defd0bdbe5c579664a00148b5d4b37
 function resetAll(){
 	
 	
